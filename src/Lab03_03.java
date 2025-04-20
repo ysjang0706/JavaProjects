@@ -7,7 +7,7 @@ public class Lab03_03 {
         double n = sc.nextDouble()*3;
         System.out.print("모바일(2학점) 성적을 입력하세요 : ");
         double m = sc.nextDouble()*2;
-        System.out.print("엑셀(1학점) 섣적을 입력하세요 : ");
+        System.out.print("엑셀(1학점) 성적을 입력하세요 : ");
         double a = sc.nextDouble();
         System.out.printf("평균 학점은 %.1f입니다.",(a+m+n)/6);
     }
